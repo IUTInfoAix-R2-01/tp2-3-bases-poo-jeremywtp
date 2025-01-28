@@ -3,11 +3,11 @@ public class Circle {
 	   private String color; 
 	   public Circle() {  
 	      radius = 1.0;
-	      color = "red";
+	      color = "rouge";
 	   }  
 	   public Circle(double r) {  
 	      radius = r;
-	      color = "red";
+	      color = "rouge";
 	   }	   
 	   public double getRadius() {
 	     return radius; 
