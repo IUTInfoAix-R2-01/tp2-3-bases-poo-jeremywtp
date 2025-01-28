@@ -22,9 +22,6 @@ public class Circle {
 	        radius = r;
 	        color = c;
 	   }
-	   public double getRadius() {
-	        return radius;
-	   }
 	   public void setRadius(double r) {
 	        radius = r;
 	   }
