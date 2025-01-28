@@ -10,5 +10,8 @@ public class TestCircle {
       System.out.println("le cercle a un rayon de " + c1.getRadius());
       c1.setRadius(5.0); 
       System.out.println("le cercle a maintenant un nouveau rayon de " + c1.getRadius());
+      c1.setRadius(5.5); 
+      c1.setColor("vert");
+      System.out.println("le cercle a maintenant un nouveau rayon de " + c1.getRadius() + " et sa nouvelle couleur est " + c1.getColor()); 
    }
 }

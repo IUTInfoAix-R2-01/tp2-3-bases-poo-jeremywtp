@@ -22,7 +22,12 @@ public class Circle {
 	        radius = r;
 	        color = c;
 	   }
-	   public void setRadius(double r) {
-	        radius = r;
+	   public void setRadius(double newRadius) {
+		    radius = newRadius; 
 	   }
+
+	   public void setColor(String newColor) {
+		    color = newColor; 
+	   }
+
 	}
