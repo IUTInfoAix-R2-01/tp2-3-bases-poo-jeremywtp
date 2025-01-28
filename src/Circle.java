@@ -15,4 +15,8 @@ public class Circle {
 	   public double getArea() {
 	      return radius*radius*Math.PI;
 	   }
+	    public Circle(double r, String c) {
+	        radius = r;
+	        color = c;
+	   }
 	}
