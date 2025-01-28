@@ -17,9 +17,15 @@ public class Circle {
 	   }
 	   public String getColor() {
 	        return color;
-	    }
-	    public Circle(double r, String c) {
+	   }
+	   public Circle(double r, String c) {
 	        radius = r;
 	        color = c;
+	   }
+	   public double getRadius() {
+	        return radius;
+	   }
+	   public void setRadius(double r) {
+	        radius = r;
 	   }
 	}
